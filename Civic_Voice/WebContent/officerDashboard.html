@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="d-flex dashboard vh-100">
+    <aside class="sidebar text-white p-3">
+      <a href="officerDashboard.html"><h3 class="mb-4">Officer Panel</h3></a>
+      <nav class="nav flex-column">
+        <a class="nav-link px-0 py-2" href="officerView.jsp">View Grievances</a>
+        <a class="nav-link px-0 py-2" href="officerPendingWork.jsp">View Pending Work</a>
+        <a href="index.html" class="nav-link text-white px-0 py-2">Log Out</a>
+
+      </nav>
+    </aside>
+    <main class="main flex-fill p-4 bg-light">
+      <h2>Welcome, Officer!</h2>
+      <p>Review and respond to assigned grievances here.</p>
+    </main>
+  </div>
+</body>
+</html>
